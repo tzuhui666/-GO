@@ -1,0 +1,46 @@
+#container{
+  width: 1280px;
+  margin: 0 auto; /*邊界*/
+}
+.box1{
+  position: absolute;
+  
+}
+#box{
+  position: absolute;
+  top: 675px;
+  left:1350px;
+  transition: transform 3s linear;
+  background-color: transparent;
+  border: none;
+ }
+ .bounce{
+    position: absolute;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    color: rgb(3, 15, 24);
+    background-color: lemonchiffon;
+    position: absolute;
+    top: 750px;
+    left:1320px;
+    cursor: pointer;
+ }
+
+
+ #box:hover{
+    position: absolute;
+    transform: translate(-900px,-560px);
+ }
+
+ a{
+  text-decoration:none
+ }
+ a:hover{
+  text-decoration:none
+ }
+body{
+  background-color: white;
+}
+
+ 

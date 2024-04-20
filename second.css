@@ -1,0 +1,66 @@
+body{
+    background-color: #dcc8ac;
+    margin: 0 auto; 
+}
+#container{
+    width: 1280px;
+    margin: 0 auto; /*邊界*/
+}
+nav{
+    margin-left: 700px;
+}
+nav li{
+    display: inline-block;
+    margin-left: 10px;
+}
+nav a{
+    cursor: pointer;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;/*粗體*/
+    margin-left: 15px;
+}
+nav a:hover{
+    font-size: 25px;
+    text-decoration: none;
+}
+img:hover{
+    width: 20%;
+    opacity: 0.5; 
+}
+
+#eat,#drink{
+    margin-left: 200px;
+}
+.t{
+    width: 40%;
+}
+.t:hover{
+    width: 40%;
+    opacity: 0.5;
+}
+
+@media (max-width: 1919px) {
+    html {
+    zoom: 67%;
+
+    }
+
+    }
+
+h5{
+    font-size: 45px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #987d7d;
+}
+
+footer{
+    height: 500px;
+}
+.f{
+    background-color: #987d7d;
+    text-align:center;
+    color: white;
+}
+

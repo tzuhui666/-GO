@@ -1,0 +1,70 @@
+body{
+    background-color: #dcc8ac;
+}
+#container{
+    width: 1280px;
+    margin: 0 auto; /*邊界*/
+  }
+section{
+    display: flex;
+}
+article{
+    flex: 1;
+}
+aside{
+    flex: 1;
+}
+.h1{
+    margin-left: 100px;
+    font-size: 50px;
+}
+section article img{
+    width: 60%;
+    /* height: 300px; */
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+aside p{
+    font-size: 23px;
+}
+/* section aside img{
+    width: 40%;
+    height: 300px;
+    margin-left: 150px;
+    margin-top: 20px;
+} */
+
+.ratings {
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    color: #ddd; /*背景星星顏色*/
+    overflow: hidden;
+    font-size: 30px; /*調整字體大小可放大縮小星星*/
+    text-shadow: 0px 1px 0 #999;
+}
+.full_star {
+    width: 82%; /*調整寬度可變更星等*/
+    position: absolute;
+    left: 0;
+    top: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #D56A16; /*前景星星顏色*/
+}
+.back{
+    position: fixed;
+    top: 700px;
+    left:1700px;
+}
+h1{
+    margin-left: 100px;
+}
+@media (max-width: 1919px) {
+    html {
+    zoom: 67%;
+
+    }
+
+    }

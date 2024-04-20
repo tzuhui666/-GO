@@ -1,0 +1,33 @@
+#container{
+    width: 1280px;
+    margin: 0 auto; /*邊界*/
+  }
+
+@media (max-width: 1919px) {
+    html {
+    zoom: 67%;
+
+    }
+
+    }
+.table{
+     text-align: center;
+  }
+
+body{
+  margin: 200;
+  background-color: #dcc8ac;
+}
+h1{
+  font-size: 80px;
+  color:rgb(152, 126, 129)
+}
+p{
+  text-align: center;
+  font-size: 50px;
+}
+.back{
+  position: fixed;
+  top: 700px;
+  left:1700px;
+}

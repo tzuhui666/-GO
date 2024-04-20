@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"> 
+    <title>南區小巷趴趴GO</title>
+    <link rel="stylesheet" href="./second.css">
+    <script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+
+    <script>
+        var cot=0;
+        function nex(){
+        if(cot<=2){
+        $('.imgs img').eq(cot).animate({'margin-left':'-905px'},500);
+        cot++;
+        }
+        }
+        function pre(){
+        if(cot>0){
+        cot--;
+        $('.imgs img').eq(cot).animate({'margin-left':'0'},500);
+        }
+        }
+    </script>
+
+    <script>
+        var cot=0;
+        function nextpage(){
+        if(cot<=2){
+        $('.imgs1 img').eq(cot).animate({'margin-left':'-905px'},500);
+        cot++;
+        }
+        }
+        function preview(){
+        if(cot>0){
+        cot--;
+        $('.imgs1 img').eq(cot).animate({'margin-left':'0'},500);
+        }
+        }
+    </script>
+</head>
+<body>
+
+
+
+    <div id="container">
+        <div id="nav">
+            <nav>
+                <ul class="nolist">
+                    <li><a href="#eat"><img src="./img/eat.png" style="width: 50px;" alt=""></a></li>
+                    <li><a href="#drink"> <img src="./img/drink.png" style="width: 50px;" alt=""></a></li>
+                    <li><a href="./line.html" class="line"><img class="line" src="./img/talk.png" style="width: 50px;" alt=""></a></li>
+                    <li><a href="./aboutus.html" class=""><img class="line" src="./img/ABOUTUS.png" style="width: 100px;" alt=""></a></li>
+                </ul>
+            </nav>
+        </div>
+    
+        <div>
+            <a href="index.html"><img class="t" src="./img/tiltle.png" alt=""></a>
+        </div>
+    
+        <br><br><br>
+    
+        <div id="eat">
+            <h5>甜<a href="#nav"><img src="./img/eat.png" style="width: 70px;" alt=""></a></h5>
+        </div>
+    
+        <div style="width:900px;margin:auto;overflow:hidden"> 
+            <div class="imgs" style="width:100000px;">
+                <a href="./ABC/A.html"><img style="width: 450px; height: 300px;" title="morikoohii 森" src="./img/sweet/morikoohii 森 咖啡1.jpg" /></a>
+                <a href="./ABC/B.html"><img style="width: 450px; height: 300px;" title="吉照故里茶道院" src="./img/sweet/吉照故里茶道院1.webp" /></a>
+                <a href="./ABC/C.html"><img style="width: 450px; height: 300px;" title="小鹿家麵包店" src="./img/sweet/麵包店1.webp" /></a>
+                <a href="./ABC/D.html"><img style="width: 450px; height: 300px;" title="阜東氏號所" src="./img/sweet/阜東氏號所1.jpg" /></a>
+                <a href="./ABC/E.html"><img style="width: 450px; height: 300px;" title="蘿芙甜點" src="./img/sweet/蘿芙甜點1.jpg" /></a>
+                <a href="./ABC/F.html"><img style="width: 450px; height: 300px;" title="藥師的私房紅茶" src="./img/sweet/藥師的私房紅茶1.webp" /></a>
+                <a href="./ABC/G.html"><img style="width: 450px; height: 300px;" title="薑母寮市場古早味阿婆水" src="./img/sweet/薑母寮市場古早味阿婆水1.jpg" /></a>
+                <a href="./ABC/H.html"><img style="width: 450px; height: 300px;" title="秣馬職手作" src="./img/sweet/秣馬職手作1.jpg" /></a>
+            </div>
+    
+            <div>
+                <div onclick="pre()" style="float:left;cursor:pointer"><img src="./img/next.png" style="width: 50px;" alt=""></div>
+                <div onclick="nex()" style="float:right;cursor:pointer"><img src="./img/pre.png" style="width: 50px;" alt=""></div>
+            </div>
+        </div>
+        <br><br><br><br><br>
+        
+       
+        <div id="drink">
+            <h5>鹹<a href="#nav"><img src="./img/drink.png" style="width: 70px;" alt=""></a></h5>
+        </div>
+    
+        <div style="width:900px;margin:auto;overflow:hidden"> 
+            <div class="imgs1" style="width:100000px;">
+                <a href="./ABC/a1.html"><img style="width: 450px; height: 300px;" title="阿吉鱔魚麵" src="./img/salt/鱔魚意麵1.jpg" /></a>
+                <a href="./ABC/b1.html"><img style="width: 450px; height: 300px;" title="嘉義民主火雞肉飯" src="./img/salt/雞肉飯1.jpg" /></a>
+                <a href="./ABC/c1.html"><img style="width: 450px; height: 300px;" title="老厝1933燒烤" src="./img/salt/豬油拌飯1.jpg" /></a>
+                <a href="./ABC/d1.html"><img style="width: 450px; height: 300px;" title="周氏蝦捲" src="./img/salt/蝦捲1.jpg" /></a>
+                <a href="./ABC/e1.html"><img style="width: 450px; height: 300px;" title="富盛號碗粿" src="./img/salt/碗粿1.jpg" /></a>
+                <a href="./ABC/f1.html"><img style="width: 450px; height: 300px;" title="文章牛肉湯" src="./img/salt/文章1.jpg" /></a>
+                <a href="./ABC/g1.html"><img style="width: 450px; height: 300px;" title="邱家傳統小吃小卷米粉" src="./img/salt/小捲米粉1.jpg" /></a>
+                <a href="./ABC/h1.html"><img style="width: 450px; height: 300px;" title="嘉義阿龍土魠魚羹" src="./img/salt/土魠魚羹1.jpg" /></a>
+            </div>
+            <div>
+                <div onclick="preview()" style="float:left;cursor:pointer"><img src="./img/next.png" style="width: 50px;" alt=""></div>
+                <div onclick="nextpage()" style="float:right;cursor:pointer"><img src="./img/pre.png" style="width: 50px;" alt=""></div>
+            </div>
+        </div>
+        
+    </div>
+
+    <footer>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br> 
+        <br>
+        <h1 class="f">© 2022 南區小巷趴趴GO 版權所有</h1>
+    </footer>
+    
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>南區小巷趴趴GO</title>
+    <link rel="stylesheet" href="./index.css">
+    <script type="text/javascript">  
+        function countDown(){
+            setTimeout("location.href='second.html'",60000);
+        }
+        countDown();
+    </script> 
+
+    <style>
+        @keyframes bounce{from{transform:translateX(0px)}to{transform:translateX(-10px)}}
+        @-webkit-keyframes bounce{from{transform:translateX(0px)}to{transform:translateX(-10px)}}
+        .bounce {animation: bounce 0.5s infinite alternate;-webkit-animation: bounce 0.5s infinite alternate;}
+
+        @media (max-width: 1919px) {
+        html {
+        zoom: 67%;
+
+        }
+
+        }
+    </style>
+</head>
+
+
+<body>
+    <div id="container">
+
+        <div class="box1">
+            <img style="width:110%;"src="./img/小巷1.jpg" alt="">
+        </div>
+        
+        <button id="box"><img style="width:75px;height: 110px" src="./img/peo.png" alt="" ></button>
+
+        <button class="bounce"><a href="./second.html">put on the man</a></button>
+        
+    </div>
+        
+</body>
+</html>
+
